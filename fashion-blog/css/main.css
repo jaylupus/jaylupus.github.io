@@ -21,7 +21,7 @@ nav{
 	font-weight: normal;
 }
 
-h4{
+h3{
 	color: #cccccc;
 	font-weight: normal;
 	font-size: 30px;
@@ -29,12 +29,17 @@ h4{
 	margin-bottom: 0px;
 }
 
-h5{
+h4{
 	color: black;
 	font-weight: normal;
 	font-size: 32px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+
+h5{
+	color: #bbbbbb;
+	font-weight: normal;
 }
 
 img{
@@ -50,10 +55,6 @@ img{
 .continues{
 	text-align: right;
 	font-weight: bold;
-}
-
-.copy{
-	color: #bbbbbb;
 }
 
 a:link{
