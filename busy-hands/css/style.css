@@ -1,0 +1,159 @@
+body{
+	color: #333333;
+}
+
+nav{
+	background-color: black;
+}
+
+nav a{
+	color: #CCCCCC;
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	margin: 16px;
+}
+
+nav a:hover{
+	color: #96DDFC;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+#element-to-replace{
+	width: 291px;
+	height: 54px;
+	background: url("../images/logo.png");
+	text-indent: -9999px;
+	overflow: hidden;
+	float: left;
+}
+
+#social-media{
+	float: right;
+	margin: 21.44px 0;
+}
+
+.social{
+	width: 48px;
+	height: 49px;
+	float: left;
+	margin: 0 8px;
+}
+
+#google{
+	background: url("../images/google.png")
+}
+
+#google:hover{
+	background: url("../images/google-selected.png")
+}
+
+#twitter{
+	background: url("../images/twitter.png")
+}
+
+#twitter:hover{
+	background: url("../images/twitter-selected.png")
+}
+
+#facebook{
+	background: url("../images/facebook.png")
+}
+
+#facebook:hover{
+	background: url("../images/facebook-selected.png")
+}
+
+#rss{
+	background: url("../images/rss.png")
+}
+
+#rss:hover{
+	background: url("../images/rss-selected.png")
+}
+
+#main{
+	background: url("../images/bg.png");
+}
+
+#blurb{
+	border-style: inset;
+}
+
+#blurb p{
+	margin: 12px;
+}
+
+#blurb img{
+	float: right;
+	margin: 12px;
+}
+
+footer{
+	background-color: black;
+}
+
+footer h1{
+	color: #CCCCCC;
+	border-bottom: 1px solid #515151;
+}
+
+.blogroll{
+	border-bottom: 1px solid #515151;
+	font-size: 16px;
+}
+
+a{
+	color: #1FA2E1;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.home-box{
+	width: 290px;
+	margin: 40px;
+	float: left;
+}
+
+.home-box img{
+	border: 6px #E2E2E2 solid;
+}
+
+.home-box img:hover{
+	border: 6px #F9F9F9 solid;
+}
+
+footer{
+	color: #515151;
+	font-size: 13px;
+}
+
+.box-footer{
+	width: 210px;
+	margin: 30px;
+	float: left;
+}
+
+.blogroll{
+	padding: 8px;
+}
+
+#middle-widget{
+	width: 400px;
+}
+
+#company-bottom{
+	float: right;
+}
+

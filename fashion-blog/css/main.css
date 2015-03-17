@@ -37,7 +37,7 @@ h4{
 	margin-bottom: 5px;
 }
 
-h5{
+footer{
 	color: #bbbbbb;
 	font-weight: normal;
 }
@@ -46,7 +46,7 @@ img{
 	max-width: 100%;
 }
 
-.entry{
+article{
 	border-bottom: solid 1px #dddddd;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -66,13 +66,13 @@ a:hover{
 	color: #aa0000;
 }
 
-a.nav:link{
+nav a:link{
 	color: #dddddd;
 	text-decoration: underline;
 	margin-right: 10px;
 }
 
-a.nav:hover{
+nav a:hover{
 	color: black;
 	text-decoration: underline;
 	margin-right: 10px;
