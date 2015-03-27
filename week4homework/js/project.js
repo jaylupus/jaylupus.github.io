@@ -1,14 +1,13 @@
 function changeColor(){
-	var red, green, blue;
-	red = document.getElementByID("red").value;
-	green = document.getElementByID("green").value;
-	blue = document.getElementByID("blue").value;
+	var red = document.getElementById("red").value;
+	var green = document.getElementById("green").value;
+	var blue = document.getElementById("blue").value;
 
 	var rgb = "rgb("+red+","+green+","+blue+")";
 
-	document.getElementByID("colorfultext").innerHTML = "rgb";
+	document.getElementById("colorfultext").innerHTML = rgb;
 
 	document.body.style.backgroundColor = rgb;
 }
 
-document.getElementByID("colorbutton").onClick = changeColor;
+document.getElementById("colorbutton").onclick = changeColor;
