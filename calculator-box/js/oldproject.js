@@ -1,39 +1,41 @@
 var total = 0;
+var totalID = document.getElementById("out");
+
 
 document.getElementById("a10").onclick = function(){
 	total += 10;
-	document.getElementById("out").innerHTML = total;
+	totalID.innerHTML = total;
 }
 
 document.getElementById("a20").onclick = function(){
 	total += 20;
-	document.getElementById("out").innerHTML = total;
+	totalID.innerHTML = total;
 }
 
 document.getElementById("a30").onclick = function(){
 	total += 30;
-	document.getElementById("out").innerHTML = total;
+	totalID.innerHTML = total;
 }
 
 document.getElementById("n10").onclick = function(){
 	total -= 10;
-	document.getElementById("out").innerHTML = total;
+	totalID.innerHTML = total;
 }
 
 document.getElementById("n20").onclick = function(){
 	total -= 20;
-	document.getElementById("out").innerHTML = total;
+	totalID.innerHTML = total;
 }
 
 document.getElementById("n30").onclick = function(){
 	total -= 30;
-	document.getElementById("out").innerHTML = total;
+	totalID.innerHTML = total;
 }
 
 document.getElementById("red").onclick = function(){
-	document.getElementById("out").style.backgroundColor = "red";
+	totalID.style.backgroundColor = "red";
 }
 
 document.getElementById("blue").onclick = function(){
-	document.getElementById("out").style.backgroundColor = "blue";
+	totalID.style.backgroundColor = "blue";
 }
