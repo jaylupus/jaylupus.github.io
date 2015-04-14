@@ -5,7 +5,7 @@ $(document).ready(function(){
 	});
 	$('#submit').click(function(){
 		for (i = 0; i < $('#paragraphs').val(); i++){
-			$('p')[i].show();
+			$($('p')[i]).show();
 		};
 		$('.ipsum').slideDown();
 	});
