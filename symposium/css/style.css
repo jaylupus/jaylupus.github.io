@@ -1,0 +1,128 @@
+body{
+  background-color: #998D7B;
+  font-family: "Garamond";
+}
+
+#painting{
+  background: url("../images/empty-symposium.png") no-repeat;
+  background-size: cover;
+  height: 612px;
+  width: 1280px;
+  margin: 10px auto 0;
+  border: 10px solid #41623B;
+  border-radius: 25px;
+  position: relative;
+}
+
+.speaker{
+  opacity: 0;
+}
+
+img{
+  position: absolute;
+}
+
+.text{
+  position: absolute;
+  width: 320px;
+  background-color: rgba(37,74,153,0.8);
+  border-radius: 25px;
+}
+
+.text h1{
+  font-size: 30px;
+  color: #A09250;
+  text-align: center;
+}
+
+.text p{
+  margin-left: 4px;
+}
+
+#alcibiades{
+  display: block;
+}
+
+#alcibiades img{
+  top: 93px;
+  left: 29px;
+}
+
+#alcibiades .text{
+  top: 185px;
+  left: 255px;
+}
+
+#agathon img{
+  top: 146px;
+  left: 517px;
+}
+
+#agathon .text{
+  top: 250px;
+  left: 185px;
+}
+
+#eryximachus img{
+  top: 251px;
+  left: 776px;
+}
+
+#eryximachus .text{
+  top: 250px;
+  left: 450px;
+}
+
+#socrates img{
+  top: 246px;
+  left: 895px;
+}
+
+#socrates .text{
+  top: 40px;
+  left: 600px;
+}
+
+#aristodemus img{
+  top: 167px;
+  left: 944px;
+}
+
+#aristodemus .text{
+  top: 18px;
+  left: 680px;
+}
+
+#aristophanes img{
+  top: 241px;
+  left: 1008px;
+}
+
+#aristophanes .text{
+  top: 175px;
+  left: 740px;
+}
+
+#pausanias img{
+  top: 242px;
+  left: 1058px;
+}
+
+#pausanias .text{
+  top: 100px;
+  left: 800px;
+}
+
+#phaedrus img{
+  top: 245px;
+  left: 1202px;
+}
+
+#phaedrus .text{
+  top: 80px;
+  left: 920px;
+}
+
+footer{
+  margin-left: 8px;
+}
